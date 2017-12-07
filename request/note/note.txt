@@ -1,0 +1,94 @@
+requests库的作用
+1、web as a DB
+2、爬虫的必备发起
+3、服务器编程基础（Restful API）
+4、自动化测试工具箱
+
+
+查看python和pip的version
+
+    python --version
+    python3 --version
+
+    python -m pip --version
+    python3 -m pip --version
+
+pip常用命令
+    help     查看帮助
+    install  安装模块
+    freeze   查看已经安装的包
+
+
+安装虚拟环境：virtualenv
+    可以理解为从本机分离出来的一个虚拟化空间，这样可以在虚拟化空间中从新安装任何你想要的东西
+    python -m pip install virtualenv
+    virtualenv XXX #XXX为创建虚拟环境的文件名字  例如 virtualenv .env
+
+    进入virtualenv环境
+        （win）切换到键入 XXX\Scripts\activate 激活虚拟环境
+        （unix）source XXX/bin/activate
+    退出virtualenv环境：deactivate
+
+安装服务端 httpbin  (http://httpbin.org/)
+pip install gunicorn
+pip install httpbin     (windows下安装不成功)
+
+python 版的curl
+    curl -v https://api.github.com/users/hwl2016 > tmp.txt
+
+urllib
+urllib2
+urllib3
+requests
+
+urllib和urllib2是两个独立的模块
+request库使用了urllib3（多次请求重复使用一个socket）
+
+了解Github API
+    https://developer.github.com/
+
+http请求方法
+    GET  查看资源
+    POST  增加资源
+    PUT  修改资源
+    DELETE  删除资源
+    HEAD  查看响应头
+    OPTIONS  查看可用请求方法
+
+带参数的请求
+    1、URL参数
+        http://www.xxx.com?key1=value1&key2=value2
+        request.get(url, params={"key1":"value1","key2":"value2",...})
+    2、表单参数提交
+        Content-Type: application/x-www-form-urlencoded
+        内容：key1=value1&key2=value2
+        request.post(url, data={"key1":"value1","key2":"value2",...})
+    3、json参数提交
+        Content-Type: application/json
+        内容：'{"key1":"value1","key2":"value2",...}'
+        request.post(url, json={"key1":"value1","key2":"value2",...})
+
+请求异常处理
+    请求超时处理
+        requests.get(url, timeout=(3, 7))   # 第一个过程不超过3s  第二个过程不超过7s （三次握手）
+        requests.get(url, timeout=10)   # 请求等待不超过10s
+
+requests库结构
+    Session：proxy、timeout、verify...
+    PreparedRequest：body、headers、auth...
+    Response：text、json...
+
+响应基本api
+
+Event Hooks  (事件回调)
+
+
+OAUTH
+    base64.b64decode('aW1vb2NkZW1vOmltb29jZGVtbzEyMw==')    # 'imoocdemo:imoocdemo123'
+
+proxy
+    1、启动代理服务Heroku
+    2、在主机1080端口启动Socks服务
+    3、将请求转发到1080端口
+    4、获取相应资源
+
