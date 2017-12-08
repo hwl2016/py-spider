@@ -1,0 +1,22 @@
+Python 数据分析大家族
+    1、numpy: 数据结构基础
+    2、scipy: 强大的科学计算方法（矩阵分析、信号分析、数理分析...）
+    3、matplotlib: 丰富的可视化套件  柱状图、折线图、饼图等各种图表
+    4、pandas: 基础数据分析套件  交叉分析、数据分析、假设检验等
+    5、scikit-learn: 强大的数据分析建模库  数据挖掘领域有较大的作用(聚类分析、回归分析等)
+    6、keras: 人工神经网络
+
+    科学计算工具：Anaconda  Anaconda指的是一个开源的Python发行版本，其包含了conda、Python等180多个科学包及其依赖项。
+
+Numpy
+    功能：ndarray  多维操作  线性代数
+
+    ndarray
+        numpy底层数据结构使用c语言写的  处理速度快
+        numpy数据结构只能有一种数据类型
+
+    numpy常用的数组
+
+Matplotlib
+    功能：绘图库
+
