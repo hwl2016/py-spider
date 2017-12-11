@@ -1,2 +1,5 @@
 源代码地址：
     https://bitbucket.org/wswp/code/src/tip/
+
+Qt框架文档：
+    http://doc.qt.io/qt-4.8/
