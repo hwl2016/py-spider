@@ -1,0 +1,10 @@
+Python DB API
+    数据库连接对象：connection
+    数据库交互对象：cursor
+    数据库异常类：exceptions
+
+MySQL-python
+    pip install MySQL-python  # 不好安装 安装依赖比较多
+    pip install PyMySQL
+
+
