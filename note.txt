@@ -6,5 +6,3 @@ Qt框架文档：
 
 9kw:
     https://www.9kw.eu/register.html
-
-
