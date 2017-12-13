@@ -15,6 +15,10 @@
     http://blog.csdn.net/CSDNedu/article/details/78752781?utm_source=blog11
     Sigmoid函数
 
+5、机器学习之-决策树算法
+    http://blog.csdn.net/csdnedu/article/details/78774787?utm_source=blog11
+    树模型、熵
+
 
 机器学习应用：
     1、关联规则
