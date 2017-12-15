@@ -98,7 +98,7 @@ ai解决问题
 深度学习框架：
     1、TensorFlow  谷歌
     2、MXNet  亚马逊
-    3、PaddlePaddle  百度   pip install paddlepaddle
+    3、PaddlePaddle  百度   python -m pip install paddlepaddle
 
 人工智能光靠算法不能打遍天下，算法、大数据、行业专家三个要素合在一起，人工智能才能改变世界。 ---科大讯飞  刘庆峰
 对人工智能的未来，未来十年的突破将在自然语言处理方面，得语言者得天下  ---东北大学教授/博导 朱靖波
