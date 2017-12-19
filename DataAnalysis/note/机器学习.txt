@@ -18,6 +18,10 @@
     http://blog.csdn.net/csdnedu/article/details/78774787?utm_source=blog11
     树模型、熵
 
+6、机器学习之-集成算法
+    http://blog.csdn.net/CSDNedu/article/details/78815459?utm_source=blog11
+    Bagging模型、Adaboost工作流、Stacking模型
+
 
 机器学习应用：
     1、关联规则
